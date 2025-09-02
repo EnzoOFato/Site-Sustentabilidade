@@ -5,8 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sussa</title>
     <link rel="icon" href="src/assets/Icone-page.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/CSS/style.css">
 </head>
 <body>
-    
+    <div class="container-fluid" id="carrossel-holder">
+        <div class="row">
+            <div class="col-xl-2 col-sm-1 d-flex justify-content-center align-items-start">
+                <img src="src/assets/assetsIndex/bolhas.png" alt="bolhas" class="img-fluid rounded">
+            </div>
+            <div class="col-xl-8 col-sm-10">
+                <div id="carrossel-produtos" class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carrossel-produtos" data-slide-to="0" class="active indicador"></li>
+                        <li data-target="#carrossel-produtos" data-slide-to="1" class="indicador"></li>
+                        <li data-target="#carrossel-produtos" data-slide-to="2" class="indicador"></li>
+                        <li data-target="#carrossel-produtos" data-slide-to="3" class="indicador"></li>
+                        <li data-target="#carrossel-produtos" data-slide-to="4" class="indicador"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">30%off</div>
+                            <img src="src/assets/assetsIndex/camiseta.png" alt="camisa verde" class="d-block w-80 img-fluid">
+                            <div class="carousel-caption d-none d-md-block legenda">
+                                <div class="texto-legenda rounded">
+                                    <h2>Camiseta Verde</h2>
+                                    <p>Feita de tecido 100% renovável e sustentável</p>
+                                </div>
+                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">20%off</div>
+                            <img src="src/assets/assetsIndex/creme.png" alt="creme natura" class="d-block w-80 img-fluid">
+                            <div class="carousel-caption d-none d-md-block legenda">
+                                <div class="texto-legenda rounded">
+                                    <h2>Creme Natura Tododia</h2>
+                                    <p>Para ficar com a pele extremamente lisa e fresca nesses dias de puro calor</p>
+                                </div>
+                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">35%off</div>
+                            <img src="src/assets/assetsIndex/umidificador.png" alt="Umidificador" class="d-block w-80 img-fluid">
+                            <div class="carousel-caption d-none d-md-block legenda">
+                                <div class="texto-legenda rounded">
+                                    <h2>Umidificador</h2>
+                                    <p>Feito com madeira de reflorestamento<br>perfeito para perfurmar a casa</p>
+                                </div>
+                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">50%off</div>
+                            <img src="src/assets/assetsIndex/calca2.png" alt="Calça" class="d-block w-80 img-fluid">
+                            <div class="carousel-caption d-none d-md-block legenda">
+                                <div class="texto-legenda rounded">
+                                    <h2>Calça importada verde</h2>
+                                    <p>Feita de tecido 100% renovável e sustentável</p>
+                                </div>
+                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">10%off</div>
+                            <img src="src/assets/assetsIndex/livro.png" alt="Livro sustentavel" class="d-block w-80 img-fluid">
+                            <div class="carousel-caption d-none d-md-block legenda">
+                                <div class="texto-legenda rounded">
+                                    <h2>Livro Água, sustentabilidade e direitos fundamentais</h2>
+                                    <p>Grande obra, para se interar e aprender mais sobre sustentabilidade</p>
+                                </div>
+                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-xl-2 col-sm-1 d-flex justify-content-center align-items-end">
+            <img src="src/assets/assetsIndex/bolhas.png" alt="bolhas" class="img-fluid rounded">
+        </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
