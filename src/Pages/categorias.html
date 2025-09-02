@@ -1,0 +1,88 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorias - EcoStore</title>
+  <link rel="icon" href="src/assets/Icone-page.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="..//CSS/categorias.css">
+</head>
+<body>
+  <div class="container my-5">
+    <div class="row">
+      <aside class="col-md-3 sidebar">
+        <h5 class="mb-3">Filtros</h5>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Preço</label>
+            <select class="form-select">
+              <option>Todos</option>
+              <option>Abaixo de R$ 50</option>
+              <option>R$ 50 - R$ 150</option>
+              <option>Acima de R$ 150</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Tipo de Produto</label>
+            <select class="form-select">
+              <option>Todos</option>
+              <option>Roupas</option>
+              <option>Beleza</option>
+              <option>Casa</option>
+              <option>Tecnologia Verde</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Marca</label>
+            <select class="form-select">
+              <option>Todas</option>
+              <option>EcoWear</option>
+              <option>BioBeauty</option>
+              <option>GreenHome</option>
+              <option>TechNature</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-success w-100">Aplicar</button>
+        </form>
+      </aside>
+
+      <section class="col-md-9">
+        <h3 class="mb-4">Produtos da Categoria</h3>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card product-card shadow-sm">
+              <img src="..//assets/categorias/camiseta-organica.webp" class="card-img-top" alt="Produto 1">
+              <div class="card-body">
+                <h5 class="card-title">Camiseta Orgânica</h5>
+                <p class="card-text text-success fw-bold">R$ 89,90</p>
+                <a href="#" class="btn btn-outline-success w-100">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card product-card shadow-sm">
+              <img src="..//assets/categorias/shampoo-natural.jpg" class="card-img-top" alt="Produto 2">
+              <div class="card-body">
+                <h5 class="card-title">Shampoo Natural</h5>
+                <p class="card-text text-success fw-bold">R$ 45,00</p>
+                <a href="#" class="btn btn-outline-success w-100">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card product-card shadow-sm">
+              <img src="..//assets/categorias/utensilios-de-bambu.jpg" class="card-img-top" alt="Produto 3">
+              <div class="card-body">
+                <h5 class="card-title">Kit Utensílios de Bambu</h5>
+                <p class="card-text text-success fw-bold">R$ 120,00</p>
+                <a href="#" class="btn btn-outline-success w-100">Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
