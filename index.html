@@ -7,8 +7,57 @@
     <link rel="icon" href="src/assets/assetsIndex/Icone-page.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="src/CSS/style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    .bgVerde {
+      background-color: #064420
+    }
+    .textBege {
+      color: #f5f5dc
+    }
+    .textBege:hover {
+      color: #dcdcc0
+    }
+    .navbar {
+      padding: 1rem 0
+    }
+    .navbar-brand {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      text-transform: uppercase
+    }
+    footer {
+      border-top: 1px solid rgba(245,245,220,0.2)
+    }
+    .footerLink {
+      text-decoration: none;
+      color: #f5f5dc
+    }
+    .footerLink:hover {
+      color: #dcdcc0
+    }
+  </style>
+
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bgVerde sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold textBege" href="#">Sussa</a>
+      <button class="navbar-toggler border-0 textBege" type="button" data-toggle="collapse" data-target="#menu">
+        <i class="bi bi-list fs-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ml-auto d-flex align-items-center">
+          <li class="nav-item"><a class="nav-link textBege font-weight-bold" href="./index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link textBege font-weight-bold" href="./src/Pages/categorias.html">Categorias</a></li>
+          <li class="nav-item"><a class="nav-link textBege font-weight-bold" href="./src/Pages/contato.html">Contatos</a></li>
+          <li class="nav-item"><a class="nav-link textBege font-weight-bold" href="./src/Pages/detalhamento.html">Detalhamento</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
     <div class="container-fluid" id="carrossel-holder">
         <div class="row">
             <div class="col-xl-2 col-sm-1 d-flex justify-content-center align-items-start">
@@ -25,58 +74,58 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">30%OFF</div>
+                            <div class="desconto bg-danger rounded-circle d-flex justify-content-center align-items-center">30%OFF</div>
                             <img src="src/assets/assetsIndex/camiseta.png" alt="camisa verde" class="d-block w-80 img-fluid">
                             <div class="carousel-caption d-none d-md-block legenda">
                                 <div class="texto-legenda rounded">
                                     <h2>Camiseta Verde</h2>
                                     <p>Feita de tecido 100% renovável e sustentável</p>
                                 </div>
-                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                                <button class="btn btn-block btn-success btn-ver">Venha ver!</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">20%OFF</div>
+                            <div class="desconto bg-danger rounded-circle d-flex justify-content-center align-items-center">20%OFF</div>
                             <img src="src/assets/assetsIndex/creme.png" alt="creme natura" class="d-block w-80 img-fluid">
                             <div class="carousel-caption d-none d-md-block legenda">
                                 <div class="texto-legenda rounded">
                                     <h2>Creme Natura Tododia</h2>
                                     <p>Para ficar com a pele extremamente lisa e fresca nesses dias de puro calor</p>
                                 </div>
-                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                                <button class="btn btn-block btn-success btn-ver">Venha ver!</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">35%OFF</div>
+                            <div class="desconto bg-danger rounded-circle d-flex justify-content-center align-items-center">35%OFF</div>
                             <img src="src/assets/assetsIndex/umidificador.png" alt="Umidificador" class="d-block w-80 img-fluid">
                             <div class="carousel-caption d-none d-md-block legenda">
                                 <div class="texto-legenda rounded">
                                     <h2>Umidificador</h2>
                                     <p>Feito com madeira de reflorestamento<br>perfeito para perfurmar a casa</p>
                                 </div>
-                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                                <button class="btn btn-block btn-success btn-ver">Venha ver!</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">50%OFF</div>
+                            <div class="desconto bg-danger rounded-circle d-flex justify-content-center align-items-center">50%OFF</div>
                             <img src="src/assets/assetsIndex/calca2.png" alt="Calça" class="d-block w-80 img-fluid">
                             <div class="carousel-caption d-none d-md-block legenda">
                                 <div class="texto-legenda rounded">
                                     <h2>Calça importada verde</h2>
                                     <p>Feita de tecido 100% renovável e sustentável</p>
                                 </div>
-                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                                <button class="btn btn-block btn-success btn-ver">Venha ver!</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="desconto bg-info rounded-circle d-flex justify-content-center align-items-center">10%OFF</div>
+                            <div class="desconto bg-danger rounded-circle d-flex justify-content-center align-items-center">10%OFF</div>
                             <img src="src/assets/assetsIndex/livro.png" alt="Livro sustentavel" class="d-block w-80 img-fluid">
                             <div class="carousel-caption d-none d-md-block legenda">
                                 <div class="texto-legenda rounded">
                                     <h2>Livro Água, sustentabilidade e direitos fundamentais</h2>
                                     <p>Grande obra, para se interar e aprender mais sobre sustentabilidade</p>
                                 </div>
-                                <button class="btn btn-block btn-info btn-ver">Venha ver!</button>
+                                <button class="btn btn-block btn-success btn-ver">Venha ver!</button>
                             </div>
                         </div>
                     </div>
@@ -102,8 +151,8 @@
             <div class="col-md-3 d-flex">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/Vestido1.png" alt="vestido1" class="card-img-top border border-info">
-                        <h3 class="card-title">Vestido verde sustentável para o verão</h3>
+                        <img src="src/assets/assetsProdutos/Vestido1.png" alt="vestido1" class="card-img-top">
+                        <h3 class="card-title">Vestido verde sustentável</h3>
                         <a href="#" class="btn btn-success">Sobre</a>
                     </div>
                 </div>
@@ -111,8 +160,8 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/chapeu.png" alt="chapeu" class="card-img-top border border-info">
-                        <h3 class="card-title">Chapéu de palha, feito de madeira de reflorestamento</h3>
+                        <img src="src/assets/assetsProdutos/chapeu.png" alt="chapeu" class="card-img-top">
+                        <h3 class="card-title">Chapéu de palha, sustentável</h3>
                         <a href="#" class="btn btn-success">Sobre</a>
                     </div>
                 </div>
@@ -120,8 +169,8 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/camiseta1.png" alt="camiseta" class="card-img-top border border-info">
-                        <h3 class="card-title">Camiseta com botões, cor bege</h3>
+                        <img src="src/assets/assetsProdutos/camiseta1.png" alt="camiseta" class="card-img-top">
+                        <h3 class="card-title">Camiseta de botão sustentável</h3>
                         <a href="#" class="btn btn-success">Sobre</a>
                     </div>
                 </div>
@@ -142,7 +191,7 @@
             <div class="col-md-3 d-flex">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/sabonete.png" alt="sabonete" class="card-img-top border border-info">
+                        <img src="src/assets/assetsProdutos/sabonete.png" alt="sabonete" class="card-img-top">
                         <h3 class="card-title">Sabonetes diversos frutos amazônicos</h3>
                         <a href="#" class="btn btn-success">Sobre</a>
                     </div>
@@ -151,7 +200,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/shampoo.png" alt="shampoo" class="card-img-top border border-info">
+                        <img src="src/assets/assetsProdutos/shampoo.png" alt="shampoo" class="card-img-top">
                         <h3 class="card-title">Shampoo para cabelos oleosos</h3>
                         <a href="#" class="btn btn-success">Sobre</a>
                     </div>
@@ -160,8 +209,8 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/creme.png" alt="creme" class="card-img-top border border-info">
-                        <h3 class="card-title">Creme corporal tomate, para dar aquele toque refrescante</h3>
+                        <img src="src/assets/assetsProdutos/creme.png" alt="creme" class="card-img-top">
+                        <h3 class="card-title">Creme corporal tomate</h3>
                         <a href="#" class="btn btn-success">Sobre</a>
                     </div>
                 </div>
@@ -182,32 +231,62 @@
             <div class="col-md-3 d-flex">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/vaso.png" alt="vaso" class="card-img-top border border-info">
+                        <img src="src/assets/assetsProdutos/vaso.png" alt="vaso" class="card-img-top">
                         <h3 class="card-title">Vasos diversos feitos de cerâmica</h3>
-                        <a href="#" class="btn btn-success">Sobre</a>
+                        <a href="#" class="btn btn-success align-bottom">Sobre</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/pote.png" alt="pote" class="card-img-top border border-info">
-                        <h3 class="card-title">Pote com tampa de madeira, perfeito para organização</h3>
-                        <a href="#" class="btn btn-success">Sobre</a>
+                        <img src="src/assets/assetsProdutos/pote.png" alt="pote" class="card-img-top">
+                        <h3 class="card-title">Pote com tampa de madeira</h3>
+                        <a href="#" class="btn btn-success align-bottom">Sobre</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body d-flex flex-column text-center">
-                        <img src="src/assets/assetsProdutos/bag.png" alt="ecobag" class="card-img-top border border-info">
+                        <img src="src/assets/assetsProdutos/bag.png" alt="ecobag" class="card-img-top">
                         <h3 class="card-title">Ecobag, as compras nunca foram tão leves</h3>
-                        <a href="#" class="btn btn-success">Sobre</a>
+                        <a href="#" class="btn btn-success align-bottom">Sobre</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <footer class="bgVerde textBege pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="font-weight-bold">Sussa</h5>
+          <p class="small">Sua experiência digital com sustentabilidade.</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="font-weight-bold">Links rápidos</h6>
+          <ul class="list-unstyled">
+            <li><a class="footerLink" href="./index.html">Início</a></li>
+            <li><a class="footerLink" href="./src/Pages/categorias.html">Categorias</a></li>
+            <li><a class="footerLink" href="./src/Pages/contato.html">Contatos</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="font-weight-bold">Siga-nos</h6>
+          <div class="d-flex">
+            <a href="#" class="footerLink mr-3 fs-4"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="footerLink mr-3 fs-4"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footerLink fs-4"><i class="bi bi-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <small>© 2025 Sussa - Todos os direitos reservados</small>
+      </div>
+    </div>
+  </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
